@@ -6,7 +6,7 @@ int main() {
     char nome[50];
 
     printf("Digite sua idade: \n");
-    scanf("%d", idade);
+    scanf("%d", &idade);
 
     printf("Digite sua altura: \n");
     scanf("%f", &altura);
