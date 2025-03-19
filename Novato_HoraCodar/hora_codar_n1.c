@@ -12,13 +12,13 @@ int main() {
     scanf("%f", &altura);
         
     printf("Digite seu nome: \n");
-    scanf("%f", &nome);
+    scanf("%s", &nome);
     
     printf("Digite sua matrícula: \n");
     scanf("%d", &matricula);
 
-    printf("Nome do aluno: %s - Matrícula: %d", nome, matricula);
-    printf("Idade: %d - Altura: %f", idade, altura);
+    printf("Nome do aluno: %s \n Matrícula: %d \n", nome, matricula);
+    printf("Idade: %d \n Altura: %f \n", idade, altura);
 
     return 0;
 
